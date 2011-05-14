@@ -2,9 +2,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><?php echo $PageData['Title']; ?></title>
-	<meta name="description" content="<?php echo $PageData['Title']; ?>">
-	<meta name="author" content="<?php echo $PageData['Author']; ?>">
+	<title>##title##</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/favicon.ico">
