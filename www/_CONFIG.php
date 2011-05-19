@@ -14,5 +14,7 @@ $CONFIG['SystemTimeZone'] = "America/Los_Angeles";
 $CONFIG['PHP_Path'] = "/usr/bin/php"; // where is the PHP excecutable?
 $CONFIG['App_dir'] = "/PROJECTS/php-dave-frontend/www/"; // the location of this application
 
+$API_URL = "http://dave.evantahler.com/API/"; // local host.  Change Me!
+
 $CONFIG['DefaultLayout'] = "layout/main.php";
 ?>

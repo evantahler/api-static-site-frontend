@@ -32,6 +32,7 @@ if (file_exists($CONFIG['App_dir'] . "_CONFIG.php"))
 	require_once($CONFIG['App_dir'] . "_CONFIG.php");
 	date_default_timezone_set($CONFIG['SystemTimeZone']);
 	require_once($CONFIG['App_dir'] . "_PageClass.php");
+	require_once($CONFIG['App_dir'] . "_APIRequest.php");
 }
 else 
 {
