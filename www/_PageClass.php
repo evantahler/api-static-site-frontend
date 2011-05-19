@@ -36,7 +36,12 @@ class Page
 	
 	public function set($block, $value)
 	{
-		$this->PageVariables[$block] = $value;
+		$this->PageVariables[$block] = $value."\r\n";
+	}
+	
+	public function append($block, $value)
+	{
+		$this->PageVariables[$block] = $this->PageVariables[$block].$value."\r\n";
 	}
 	
 	public function fill($block, $content = "")
