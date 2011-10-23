@@ -7,6 +7,8 @@ This is a framework website which is meant to be used in conjunction with a remo
 
 I also employ ajax-friendly deep linking.
 
+This type of website can be served by even the simplest of servers (S3 objects), and work great behind load-balancers, as there is no server-side rendering done per-user.
+
 Example of loosely-coupled APIs for a user login form:
 
 
