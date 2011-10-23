@@ -16,7 +16,7 @@ app.partialMap = {
 
 app.init = function(){
 	$('#header > #container').load(app.partialMap.header);
-	if(window.location.hash != null){
+	if(window.location.hash != null && window.location.hash != "" && window.location.hash != "#"){
 		var hash = window.location.hash.replace(/#/gm,"");
 		if(app.partialMap[hash] == undefined){
 			alert("I'm sorry, but I can't find the "+hash+" page.");
